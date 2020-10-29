@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: GradientAppBar(
           title: Text(
             "خرافة",
-             textDirection: TextDirection.rtl,
+            textDirection: TextDirection.ltr,
             textAlign: TextAlign.right,
             style: new TextStyle(
               fontFamily: ArabicFonts.Amiri,
@@ -120,7 +120,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 )),
             ListTile(
-              leading: Icon(Icons.palette),
+              leading: Icon(
+                Icons.palette,
+                size: 40.0,
+              ),
+              contentPadding: EdgeInsets.all(20.0),
               title: Text('Theme'),
               subtitle:
                   Text('Change from light theme to dark theme and backwards'),
@@ -130,7 +134,11 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.star),
+              leading: Icon(
+                Icons.star,
+                size: 40.0,
+              ),
+              contentPadding: EdgeInsets.all(20.0),
               title: Text('Rate Us'),
               onTap: () async {
                 int stars = await showDialog(
@@ -143,7 +151,11 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.phone),
+              leading: Icon(
+                Icons.phone,
+                size: 40.0,
+              ),
+              contentPadding: EdgeInsets.all(20.0),
               title: Text('Contact'),
               onTap: () {
                 Navigator.push(context,
@@ -151,7 +163,11 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             ListTile(
-              leading: Icon(Icons.info),
+              leading: Icon(
+                Icons.info,
+                size: 40.0,
+              ),
+              contentPadding: EdgeInsets.all(20.0),
               title: Text('About'),
               onTap: () {
                 showAboutDialog(
@@ -163,9 +179,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   applicationName: 'Khrafa',
                   applicationVersion: '1.0.0',
-                  applicationLegalese:
-                      'Khrafa is free app developed by Khawla Jlassi , Jacer Dabbabi and Imen Ayari. This is a school project made for Holberton School of Tunis',
                   children: <Widget>[
+                    Text(
+                        'Khrafa is free app developed by Khawla Jlassi , Jacer Dabbabi and Imen Ayari. This is a school project made for Holberton School of Tunis'),
                     Text(
                         'It is an An integenerational bed-time story , for parents and kids going through folkloric stories of Tunisia')
                   ],
