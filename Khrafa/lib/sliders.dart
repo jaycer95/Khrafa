@@ -77,7 +77,8 @@ class Library extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Center(
+      child: Container(
         child: Column(
       children: <Widget>[
         CarouselSlider(
@@ -105,6 +106,6 @@ class Library extends StatelessWidget {
                   context, MaterialPageRoute(builder: (context) => Story()));
             }),
       ],
-    ));
+    )));
   }
 }
