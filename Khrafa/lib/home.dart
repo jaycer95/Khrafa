@@ -33,8 +33,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: GradientAppBar(
           title: Text(
-            "                             خرافة",
-            textDirection: TextDirection.ltr,
+            "خرافة",
+             textDirection: TextDirection.rtl,
             textAlign: TextAlign.right,
             style: new TextStyle(
               fontFamily: ArabicFonts.Amiri,
