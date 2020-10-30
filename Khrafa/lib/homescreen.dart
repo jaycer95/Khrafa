@@ -5,7 +5,11 @@ import 'package:google_fonts_arabic/fonts.dart';
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Padding(
+      padding: EdgeInsets.only(
+        top: 10.0,
+        bottom: 10.0,
+      ),
       child: Row(
         children: <Widget>[
           Expanded(
@@ -13,6 +17,10 @@ class HomeScreen extends StatelessWidget {
               children: <Widget>[
                 Expanded(
                   child: Card(
+                    elevation: 10,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(5),
+                    ),
                     child: Container(
                       width: double.infinity,
                       height: double.infinity,
@@ -22,18 +30,16 @@ class HomeScreen extends StatelessWidget {
                         direction: FlipDirection.VERTICAL, // default
                         front: Container(
                           child: Center(
-                              child: Text(
-                                  'Authentic,\n'
-                                  'intergenerational\n'
-                                  'Tunisian\n'
-                                  'bed-time stories',
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                      fontStyle: FontStyle.italic,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 15,
-                                      color: Colors.lightBlue,
-                                      height: 3))),
+                              child: Center(
+                                  child: Text('تصويرة اليوم',
+                                      textAlign: TextAlign.left,
+                                      style: new TextStyle(
+                                        backgroundColor: Colors.transparent,
+                                        color: Colors.black,
+                                        fontFamily: ArabicFonts.Aref_Ruqaa,
+                                        package: 'google_fonts_arabic',
+                                        fontSize: 30.0,
+                                      )))),
                         ),
                         back: Image.asset(
                           "assets/gif/giphy2.gif",
@@ -45,6 +51,10 @@ class HomeScreen extends StatelessWidget {
                 ),
                 Expanded(
                   child: Card(
+                    elevation: 10,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(5),
+                    ),
                     child: Container(
                       width: double.infinity,
                       height: double.infinity,
@@ -103,6 +113,10 @@ class HomeScreen extends StatelessWidget {
           ),
           Expanded(
             child: Card(
+              elevation: 10,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(5),
+              ),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

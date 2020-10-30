@@ -65,7 +65,7 @@ class _AudioP extends State<AudioP> {
         title: "خرافة سبعة صبايا في قصبايا",
         artist: "hamooudaalias",
         album: "KhrafaAlbum",
-        image: MetasImage.asset("assets/images/sabaya.jpg"),
+        image: MetasImage.asset("assets/images/images.jpg"),
       ),
     ),
     Audio(
