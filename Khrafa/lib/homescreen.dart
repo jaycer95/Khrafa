@@ -2,6 +2,8 @@ import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts_arabic/fonts.dart';
 
+
+//home body content in class HomeScreen
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
