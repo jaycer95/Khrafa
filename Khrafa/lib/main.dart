@@ -5,6 +5,7 @@ import 'home.dart';
 import 'package:flutter/services.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
 
+// Main function that run the app
 void main() {
   AssetsAudioPlayer.setupNotificationsOpenAction((notification) {
     print(notification.audioId);
@@ -12,7 +13,7 @@ void main() {
   });
   runApp(Khrafa());
 }
-
+// first class of the app content the first widget
 class Khrafa extends StatefulWidget {
   const Khrafa({Key key}) : super(key: key);
 
@@ -34,7 +35,7 @@ class _KhrafaState extends State<Khrafa> {
   Widget build(BuildContext context) {
     SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.bottom]);
     return MaterialApp(
-      title: appTitle,
+      title: 'خرافة',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
@@ -44,6 +45,7 @@ class _KhrafaState extends State<Khrafa> {
   }
 }
 
+// splash screen class 
 class Splash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
