@@ -9,7 +9,7 @@ It conatins  a library and also an audible library also.
 To run the app please follow the instructions in the link below :
 
 [install flutter](https://flutter.dev/docs/get-started/install/windows)
-[install Android Studio]
+[install Android Studio](https://developer.android.com/studio)
 ## Usage
 
 ```
