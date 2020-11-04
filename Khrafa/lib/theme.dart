@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// class for change the theme of the app 
 class MyTheme with ChangeNotifier {
   static bool _isDark = true;
 

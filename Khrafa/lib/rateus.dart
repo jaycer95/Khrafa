@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// class for the rate us button 
 class RatingDialog extends StatefulWidget {
   @override
   _RatingDialogState createState() => _RatingDialogState();

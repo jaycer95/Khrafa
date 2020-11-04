@@ -1,6 +1,7 @@
 import 'package:contactus/contactus.dart';
 import 'package:flutter/material.dart';
 
+//class contact content the function on button contact
 class Contact extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
