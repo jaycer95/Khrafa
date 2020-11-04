@@ -12,12 +12,12 @@ final List<Map> imgList = [
   {
     "name": "خرافة سبعة صباية في قصباية",
     "image": 'assets/images/images.jpg',
-    "routeName": "/image2Dashboard"
+
   },
   {
     "name": "ولد السلطان و ولد الفلاح",
     "image": 'assets/images/soltan.jpg',
-    "routeName": "/simDashboard"
+
   },
   {
     "name": "امي سيسي",

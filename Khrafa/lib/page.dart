@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts_arabic/fonts.dart';
 
-class AlicePage extends StatelessWidget {
+// class story page the content of each story
+class StoryPage extends StatelessWidget {
   final int page;
 
-  const AlicePage({Key key, this.page}) : super(key: key);
+  const StoryPage({Key key, this.page}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     if (page == 0) {

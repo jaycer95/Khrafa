@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:page_turn/page_turn.dart';
 import 'page.dart';
 
+//class Stroy when you pike up the story
 class Story extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -38,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
         showDragCutoff: false,
         //lastPage: Container(child: Center(child: Text('The End'))),
         children: <Widget>[
-          for (var i = 0; i < 10; i++) AlicePage(page: i),
+          for (var i = 0; i < 10; i++) StoryPage(page: i),
         ],
       ),
     );
