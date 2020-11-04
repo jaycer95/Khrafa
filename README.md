@@ -33,5 +33,9 @@ Please make sure to update tests as appropriate.
 
 ## AUTHORS
 * Imen Ayari - [Githb](https://github.com/Immaannn2222)
+             - [LinkedIn](https://www.linkedin.com/in/imen-ayari1-77312a1a2/)
 * Jacer Dabbabi - [Github](https://github.com/jaycer95)
+             - [LinkedIn](https://www.linkedin.com/in/jacer-dabbabi-a1519a1a1/)
 * Khawla Jlassi - [Github](https://github.com/jlassi1)
+             - [LinkedIn](https://www.linkedin.com/in/khawla-jlassi-11941019a/)
+
