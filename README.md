@@ -2,7 +2,7 @@
 
 Khrafa is an andoid app , made with android studio IDE and flutter SDK , consisting of a collection of folkloric tunisian stories and quotes .
 
-<H1> ## The story <H1>
+ ## The story 
 As a group of students we wanted this portfolio-project to reflect our technical abilities and be similar to us. As it is dedicated to children we wanted to share a dear piece from ours to them.
 We were told told these stories at a young age and we did really appreciate them but when we wanted to look back we didn't really found them, we felt that they're only carried with our grandparnets and in their way to disapear so we thought of this app as a way to preserve them.
 
